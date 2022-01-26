@@ -75,8 +75,11 @@ body {
 /* End container styling */
 /* Start header styling  */
 .page-header {
-    min-height: 100vh;
-    background: url('../image/background-1.png') no-repeat fixed center;
+    min-height: 100vh; 
+    background-image: url(../image/background-1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     padding-top: var(--main-space);
     padding-bottom: var(--main-space);
